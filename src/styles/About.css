@@ -1,0 +1,15 @@
+* {
+    background-color: rgb(37, 37, 37);
+}
+.aboutHeading {
+    padding-left: 2%;
+    padding-top: 1%;
+}
+.aboutHeading:hover{
+    color: rgb(209, 191, 24) !important;
+}
+.img-fluid {
+    height: 250px !important;
+    border-radius: 25% !important;
+    
+}

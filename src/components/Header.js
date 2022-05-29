@@ -1,36 +1,29 @@
 import React from 'react';
 import {Link} from "react-router-dom"
-
-const styles ={
-  liStyle: {
-    color: 'inherit',
-    textDecoration: 'inherit',
-    justifyContent: 'space-between',
-  }
-}
+import '../styles/Header.css'
 
 function Header() {
   return (
-    <nav class= "navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-    <h1 className="text-light"> Dahlia Graves</h1>
-    <ul className="nav nav-tabs ">
-      <li className="nav-item" style={styles.liStyle}>
+    <nav className= "navbar navbar-dark bg-dark" >
+      <div className="container-fluid big-img">
+    <h1 className="text-light myName"> Dahlia Graves</h1>
+    {/* <ul className="nav"> */}
+      {/* <p className="nav-item " >
         <Link to="/">Home</Link>
-      </li>
-      <li className="nav-item" style={styles.liStyle}>
+      </p> */}
+      <p className="nav-item " >
       <Link to="/about">About</Link>
-      </li>
-      <li className="nav-item" style={styles.liStyle}>
+      </p>
+      <p className="nav-item " >
       <Link to="/blog">Portfolio</Link>
-      </li>
-      <li className="nav-item" style={styles.liStyle}>
+      </p>
+      <p className="nav-item " >
       <Link to="/contact">Contact</Link>
-      </li>
-      <li className="nav-item" style={styles.liStyle}>
+      </p>
+      <p className="nav-item" >
       <Link to="/resume">Resume</Link>
-      </li>
-    </ul>
+      </p>
+    {/* </ul> */}
     </div>
     </nav>
   );

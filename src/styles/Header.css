@@ -1,0 +1,49 @@
+* {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.big-img {
+    background-image: url('../assets/dahlia\ background.jpg');
+    min-height: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+};
+
+.container-fluid {
+    margin-left: 0 auto;
+    position: inherit;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: transparent;
+
+}
+.myName {
+    font-family: 'Bungee Shade', cursive;
+    background-color: transparent;
+}
+.myName:hover {
+    color: rgb(32, 54, 32) !important;
+}
+.navbar {
+    overflow: hidden;
+    margin-left: 0;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: transparent;
+
+}
+a {
+    color: white !important;
+    text-decoration: none !important;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: transparent;
+
+}
+a:hover {
+    color: rgb(209, 191, 24) !important;
+}
+.nav-item {
+    font-size:xx-large;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: transparent;
+}
