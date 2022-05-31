@@ -23,7 +23,8 @@
     background-color: transparent;
 }
 .myName:hover {
-    color: rgb(32, 54, 32) !important;
+    color: rgb(224, 228, 31) !important;
+;
 }
 .navbar {
     overflow: hidden;
@@ -40,7 +41,9 @@ a {
 
 }
 a:hover {
-    color: rgb(209, 191, 24) !important;
+    -webkit-text-stroke: 1px rgb(207, 110, 194);
+    -webkit-text-fill-color: white;
+
 }
 .nav-item {
     font-size:xx-large;

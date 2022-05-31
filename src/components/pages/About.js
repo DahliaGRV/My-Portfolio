@@ -12,7 +12,7 @@ export default function About() {
       </div>
       <br />
       <br />
-      <p className="text-light aboutText">
+      <p className="text-light fs-5 text aboutText">
       Dahlia Lola Graves here. An Aspiring Full-Stack Web Developer. Recently emerged from the University of Washington’s full-stack flex coding bootcamp with a certificate of completion. Endlessly determined to gain new knowledge, surpass expectations of myself, and deliver both excellent & timely projects. Through my coding journey I have prided myself on creating apps that feel engaging and easily manageable by a user.
       <br />
       <br />

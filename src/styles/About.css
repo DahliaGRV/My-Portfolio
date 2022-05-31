@@ -13,3 +13,21 @@
     border-radius: 25% !important;
     
 }
+
+.aboutText {
+    opacity: 0;
+    animation-name: fx-fadein;   
+    animation-duration: 1s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 1s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes fx-fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
