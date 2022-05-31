@@ -15,6 +15,7 @@
 }
 
 .aboutText {
+    
     opacity: 0;
     animation-name: fx-fadein;   
     animation-duration: 1s; 
