@@ -4,10 +4,9 @@ import myResume from "../../assets/DahliaGravesResume.pdf"
 
 export default function Resume () {
     return(
-        <div className="position-relative">
-        <a href={myResume} target="_blank" rel="noreferrer" download="Dahlia-Graves-Resume"><h1 className='text-light'>Resume</h1></a>
-        
-        <div className="container-sm">
+        <div style={{marginLeft:"1%",marginTop:"1%"}}>
+        <h1 className="text-light">Resume :</h1>
+        <div className="container-sm" style={{display:"grid",margin:"auto", justifyContent:"center"}}>
         <h2 className='text-light'>Hard Skills</h2>
         <ul className='text-light'>
             <li>JavaScript</li>
@@ -24,6 +23,8 @@ export default function Resume () {
             <li>Team Player</li>
             <li>Attention to Detail</li>
         </ul>
+        <br/>
+        <a href={myResume} target="_blank" rel="noreferrer" download="Dahlia-Graves-Resume"><h3 className='text-light'>Download a copy here</h3></a>
         </div>
         </div>
     );

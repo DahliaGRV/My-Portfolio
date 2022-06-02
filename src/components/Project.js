@@ -33,18 +33,18 @@ export default function Project() {
     return (
         <div>
         <div className="bg-dark text-white"style={{margin:"auto",marginTop:"2%"}}>
-            <h3 style={{marginLeft:"1%"}}>My Work :</h3>
-            <div className="container"style={{display:"grid",gridTemplateColumn: "repeat(3,[col-start])"}}>
+            <h1 style={{marginLeft:"1%"}}>My Work :</h1>
+            <div className="container rounded"style={{display:"grid",gridTemplateColumn: "repeat(3,[col-start])"}}>
             {projects.map(({title, imgLink, imgAlt, deployedLink, gitHubLink, description}) => {
             return (
-                <div class="card" key={title} >
-                    <img src={imgLink} alt={imgAlt} class="card-img-top"></img>
-                    <div class="card-body" style={{opacity:"0.5"}}>
-                        <h5 class="card-title text-light">{title}</h5>
-                        <p class="card-text text-light">{description}</p>
+                <div className="card" key={title} >
+                    <img src={imgLink} alt={imgAlt} className="card-img-top"></img>
+                    <div className="card-body" style={{opacity:"0.5"}}>
+                        <h5 className="card-title text-light">{title}</h5>
+                        <p className="card-text text-light">{description}</p>
                         <p></p>
                     </div>
-                    <div class="card-body">
+                    <div className="card-body" style={{textAlign:"center", fontSize:"24px"}}>
                         <a href={deployedLink}>Visit it here!</a>
                         <br />
                         <a href={gitHubLink}>See the Repo!</a>

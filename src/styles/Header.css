@@ -19,8 +19,10 @@
 
 }
 .myName {
-    font-family: 'Bungee Shade', cursive;
+    /* font-family: 'Bungee Shade', cursive; */
+    font-family: 'IM Fell English SC', serif;
     background-color: transparent;
+    font-size:52px;
 }
 .myName:hover {
     color: rgb(224, 228, 31) !important;
@@ -45,11 +47,7 @@ a:hover {
     -webkit-text-fill-color: white;
 
 }
-h3:hover {
-    -webkit-text-stroke: 1px rgb(207, 110, 194);
-    -webkit-text-fill-color: white;
 
-}
 .nav-item {
     font-size:xx-large;
     font-family: 'Fredericka the Great', cursive;
