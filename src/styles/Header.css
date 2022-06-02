@@ -45,6 +45,11 @@ a:hover {
     -webkit-text-fill-color: white;
 
 }
+h3:hover {
+    -webkit-text-stroke: 1px rgb(207, 110, 194);
+    -webkit-text-fill-color: white;
+
+}
 .nav-item {
     font-size:xx-large;
     font-family: 'Fredericka the Great', cursive;
