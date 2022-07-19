@@ -35,6 +35,6 @@ This README is covered under license GPLv2
 * [GitHub Portfolio](https://github.com/DahliaGRV)
 
 * [Repository Link](https://github.com/DahliaGRV/My-Portfolio)
-* [Deployed Link](https://dahliagravesportfolio.herokuapp.com/)
+* [Deployed Link](https://dahliagraves.com/)
  
   
