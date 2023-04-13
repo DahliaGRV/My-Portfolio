@@ -53,9 +53,9 @@ export default function Project() {
                         <p></p>
                     </div>
                     <div className="card-body" style={{textAlign:"center", fontSize:"24px"}}>
-                        <a href={deployedLink}>Visit it here!</a>
+                        <a href={deployedLink} target="_blank" rel="noreferrer">Visit it here!</a>
                         <br />
-                        <a href={gitHubLink}>See the Repo!</a>
+                        <a href={gitHubLink}target="_blank" rel="noreferrer">See the Repo!</a>
                     </div>
                 </div>
             )
