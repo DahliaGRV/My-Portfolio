@@ -19,13 +19,15 @@ export default function Resume () {
             <li>Heroku Deployment</li>
             <li>Vercel Deployment</li>
             <li>GitHub Repositories</li>
+            <li>BitBucket Repositories</li>
             <li>Microsoft Suites</li>
         </ul>
         <h2 className='text-light'>Soft Skills</h2>
         <ul className='text-light'>
             <li>Problem Solving</li>
             <li>Effective Communication</li>
-            <li>Team Player</li>
+            <li>Team Development</li>
+            <li>Thorough Documentation</li>
             <li>Attention to Detail</li>
             <li>Knowledge Seeker</li>
         </ul>
