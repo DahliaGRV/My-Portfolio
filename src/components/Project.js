@@ -9,7 +9,7 @@ const projects = [
         title: "Battle Trail",
         imgLink: "/Battle_Trail.JPG",
         imgAlt: "Battle Trail",
-        deployedLink: "http://battle-trail.herokuapp.com/",
+        deployedLink: "http://battle-trail-game.herokuapp.com/",
         gitHubLink: "https://github.com/JaHa675/project-3",
         description: "A 2D pixel art style game that brings unique character sprites in a quirky battle scene sidestepper. Utilizes Phaser Game Engine 3 & React seemlessly."
     },
